@@ -2,7 +2,7 @@ package com.company.prime;
 
 import java.util.Scanner;
 
-public class Main {
+public class Eliza {
 
     public static void main(String[] args) {
         Scanner input= new Scanner(System.in);
