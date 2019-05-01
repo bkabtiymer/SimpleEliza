@@ -9,13 +9,13 @@ public class Eliza {
 //Prompt the user to input what they want Eliza to help with
         System.out.print("Good Afternoon, How can I help you with today? " );
         String userInput=" ";
-        boolean userQuit=false;
+        boolean Quit=false;
 //Provides user the option to enter response or quit
-        while(!userQuit){
+        while(!Quit){
             System.out.println("Enter your response or Q to quit");
             userInput= input.nextLine();
 
-            if(userQuit=checkQuitCommand(userInput)){
+            if(Quit=checkQuitCommand(userInput)){
                 break;
             }
         }
